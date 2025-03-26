@@ -21,8 +21,10 @@ public class tiqushiyan {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("输入余额");
 		Scanner s =new Scanner(System.in);
 		int  money = s.nextInt();
+		System.out.println("输入要提取的金额");
 		Scanner t =new Scanner(System.in);
 		int outmoney = t.nextInt();
 		try {
